@@ -56,7 +56,7 @@ const Login = () => {
             <Welcome />
             <button onClick={handleLogout}>Logout</button>
           </>
-        ) : (
+        ) : ( 
           <form className='form'>
             <h2>Login</h2>
             <div className='form-group'>
